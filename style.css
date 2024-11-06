@@ -1,0 +1,390 @@
+* {
+  padding: 8px;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  /* background-color: rgb(195, 195, 195); */
+}
+body{
+  background-color: rgb(195, 195, 195);
+
+}
+.container {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 90px auto;
+ 
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  ul {
+    display: flex;
+    list-style-type: none;
+
+    li {
+      margin: 10px;
+    }
+    li:nth-child(3) {
+      border: 2px solid black;
+      border-radius: 50px;
+      width: 90px;
+      text-align: center;
+      /* padding: 10px; */
+    }
+  }
+  img {
+    width: 50px;
+    height: 50px;
+  }
+
+  a {
+    padding-top: 22px;
+    color: black;
+  }
+}
+.div-p {
+  display: flex;
+  justify-content: center;
+  font-size: 80px;
+  margin-top: 50px;
+}
+.navbar {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  gap: 55px;
+  border: 2px solid #d6d6d6;
+  border-radius: 30px;
+  margin-left: 100px;
+  margin-right: 100px; 
+
+
+  .navbar1 {
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+  }
+  p {
+    font-size: 50px;
+  }
+
+  span {
+    max-width: 600px;
+    font-size: 20px;
+    padding-bottom: 70px;
+  }
+  .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+  }
+}
+.img {
+  width: 600px;
+  height: 500px;
+  border-radius: 50px;
+  border-radius: 0 0 50px 0;
+}
+.navbar-sofe {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  gap: 55px;
+  border: 2px solid #d6d6d6;
+  border-radius: 30px;
+  margin-left: 100px;
+  margin-right: 100px; 
+  margin-top: 50px;
+  background-color: white;
+ 
+
+  .navbar1-sofe{
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+  }
+  p {
+    font-size: 50px;
+  }
+
+  span {
+    max-width: 600px;
+    font-size: 20px;
+    padding-bottom: 70px;
+  }
+  .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+  }
+}
+
+.sofa{
+  border-radius: 70px 0 70px 0;
+}
+
+.navbar-modular{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  gap: 55px;
+  border: 2px solid #d6d6d6;
+  border-radius: 30px;
+  margin-left: 100px;
+  margin-right: 100px; 
+  margin-top: 50px;
+
+  .navbar1-modular {
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+  }
+  p {
+    font-size: 50px;
+  }
+
+  span {
+    max-width: 600px;
+    font-size: 20px;
+    padding-bottom: 70px;
+  }
+  .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+  }
+}
+.navbar-TV {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  gap: 55px;
+  border: 2px solid #d6d6d6;
+  border-radius: 30px;
+  margin-left: 100px;
+  margin-right: 100px; 
+  margin-top: 50px;
+
+  .navbar1-TV {
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+  }
+  p {
+    font-size: 50px;
+  }
+
+  span {
+    max-width: 600px;
+    font-size: 20px;
+    padding-bottom: 70px;
+  }
+  .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+  }
+}
+
+.Category{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  button{
+    border-radius: 50px;
+    width: 155px;
+    height: 50px;
+    border: none;
+  }
+  p{
+    font-size: 50px;
+    font-weight: 200;
+  }
+}
+.card{
+   display: grid;
+   grid-template-columns: repeat(4,auto);
+   gap:0.5px;
+   margin-left:90px;
+   margin-right: 90px;
+
+   img{
+    width:360px;
+  }
+  h1{
+    font-size: 20px;
+  }
+
+.Nightstand{
+  img{
+  border-bottom-right-radius: 90px;}
+}
+
+.Armchair{
+  img{
+    border-bottom-left-radius: 90px;
+    margin-top: 70px;
+  } 
+}
+
+.DiningTable{
+  img{
+    border-top-right-radius: 90px;}
+  
+}
+.BedFrame{
+  img{
+    border-bottom-right-radius: 90px;
+    margin-top: 70px;
+  }
+}
+  
+
+}
+
+.EzyBuy{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+
+  h1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1202px;
+  }
+
+}
+.elevate{
+  margin-top: 50px;
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ img{
+  width: 1500px;
+border-top-left-radius: 70px;
+border-bottom-right-radius: 70px;
+position: relative;
+ }
+ p{
+  position: absolute;
+  font-size: 90px;
+  max-width: 1500px;
+  text-align: center;
+  margin-bottom:200px ;
+
+ }
+ button{
+  position: absolute;
+  margin-top: 200px;
+  color: #fff;
+  background-color: rgb(12, 12, 31);
+  width: 140px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+ }
+
+}
+.footer {
+
+  padding: 40px 20px;
+  color: #333;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-column h3 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.footer-column ul {
+  list-style: none;
+}
+
+.footer-column ul li {
+  margin-bottom: 8px;
+}
+
+.footer-column ul li a {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-column ul li a:hover {
+  color: #007bff;
+}
+
+.footer-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-top: 1px solid #ddd;
+  padding-top: 20px;
+  margin-top: 20px;
+}
+
+.footer-bottom p {
+  margin-bottom: 10px;
+  color: #666;
+}
+
+.footer-links {
+  display: flex;
+  gap: 15px;
+}
+
+.footer-links li {
+  list-style: none;
+}
+
+.footer-links li a {
+  color: #666;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-links li a:hover {
+  color: #007bff;
+}
+
+
