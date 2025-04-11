@@ -1,5 +1,6 @@
 EzyBuy
-[EzyBuy](https://saragolmohammadi.github.io/mag/)
+
+[EzyBuy]( https://saragolmohammadi.github.io/EZYBUYY/)
 
 یه وبسایت فروشگاهی ساده که با HTML و CSS طراحی شده. این پروژه به کاربرها کمک می‌کنه تا محصولات چوبی رو ببینن و اطلاعات بیشتری درباره‌شون بگیرن.
 
